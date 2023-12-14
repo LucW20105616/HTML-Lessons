@@ -1,0 +1,27 @@
+<html>
+<header>
+   <title>
+      Lesson 3
+   </title>
+</header>
+
+<body>
+   <marquee behaviour="sliding" direction="rihht">Lesson 3</marquee>
+   <input type="text" id="input1" style="color: blue;"></input> &#247; <input type="text" id="input2" style="color: yellow;"></input>
+   <button onclick="Calculate()">=</button> <span id="result" style="color: purple;"></span><br>
+
+   <script>
+      //parseint means change to an intger and stores it in num1 value document means the hole thing 
+//get the value of html element by the id called input1
+
+      function Calculate() {
+         var num1 = parseInt(document.getElementById( 'input1').value);
+         var num2 = parseInt(document.getElementById( 'input2').value);
+         var ans = num1 / num2;
+         document.getElementById('result').innerText = ans;
+      }
+
+   </script>
+</body>
+
+</html>
