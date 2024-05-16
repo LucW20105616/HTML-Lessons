@@ -1,10 +1,10 @@
 <html>
  <header>
 <title>
-    Lesson 12
+    Lesson 13
 </title>
  </header>
   <body>
-    <script src="code.js"></script>
+    <script scr="code.js"></script>
   </body>
-</html>  
+</html>
